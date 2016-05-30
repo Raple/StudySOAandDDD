@@ -1,0 +1,1 @@
+D:\SOA\build\study.Menu\study.Menu.Api\bin\study.Menu.Api.exe.config
