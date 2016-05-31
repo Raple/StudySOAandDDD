@@ -29,7 +29,7 @@ namespace study.Menu.Application.Application.Category.Select
                 result.Add(temp);
             }
 
-            return this.ResultValue(data: result);
+            return this.ResultValue(data: new PageList<CategoryModel> { Collections = result, TotalRows = totalRows });
         }
     }
 }

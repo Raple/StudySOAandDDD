@@ -60,6 +60,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ApplicationRegistry.cs" />
     <Compile Include="Application\Category\Add\AddReturnTransformer.cs" />
     <Compile Include="Application\Category\CategoryApplication.cs" />
     <Compile Include="Application\Category\Select\SelectReturnTransformer.cs" />

@@ -36,7 +36,7 @@ namespace study.Menu.Api
                     Ip = ip + ":" + port
                 },new string[0],new string[] {
                     "Category/Add",
-                    "Category/GetAll"
+                    "Category/Select"
                 });
 
                 //// todo:注册到监控中心
