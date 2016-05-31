@@ -60,17 +60,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Application\Category\Add\AddReturnTransformer.cs" />
+    <Compile Include="Application\Category\CategoryApplication.cs" />
+    <Compile Include="Application\Category\Select\SelectReturnTransformer.cs" />
+    <Compile Include="Application\DefaultReturnTransformer.cs" />
+    <Compile Include="Models\Category\CategoryModel.cs" />
+    <Compile Include="Models\PageList.cs" />
+    <Compile Include="Models\Result.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\study.Menu.Infrastructure\study.Menu.Infrastructure.csproj">
-      <Project>{25348ca8-4b0f-4666-8139-07e2c1ee8eef}</Project>
-      <Name>study.Menu.Infrastructure</Name>
+    <ProjectReference Include="..\study.Menu.DomainModel\study.Menu.DomainModel.csproj">
+      <Project>{59c781be-814c-49d9-a4df-a3a93e5123c4}</Project>
+      <Name>study.Menu.DomainModel</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
